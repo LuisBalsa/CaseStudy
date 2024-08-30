@@ -1,7 +1,7 @@
 
 # Case Study - Fullstack Application
 
-Este é um estudo de caso para uma aplicação fullstack desenvolvida utilizando Next.js, Expo e PocketBase, com autenticação via OAuth do Google.
+Aplicação fullstack desenvolvida utilizando Next.js, Expo e PocketBase, com autenticação via OAuth do Google.
 
 ## Descrição
 
