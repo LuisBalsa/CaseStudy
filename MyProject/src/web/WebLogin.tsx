@@ -38,7 +38,6 @@ const WebLogin: React.FC = () => {
     onSuccess: async (response) => {
       try {
         // Enviar o código de autorização para o backend
-        console.log(response);
         const backendResponse = await axios.post(`/api/authenticate`, {
           code: response.access_token,
         });
