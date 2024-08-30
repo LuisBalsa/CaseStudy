@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./MyProject
+    ports:
+      - "3001:8081"
+    volumes:
+      - ./MyProject:/app
+    depends_on:
+      - next-backend
+
+  next-backend:
+    build:
+      context: ./my-next-backend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - pocketbase
+
+  pocketbase:
+    build:
+      context: ./docker/pocketbase
+    ports:
+      - "8090:8090"
+    volumes:
+      - pocketbase_data:/pb_data
+
+volumes:
+  pocketbase_data:
+    driver: local
