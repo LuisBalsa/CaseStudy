@@ -1,7 +1,7 @@
 
 # Case Study - Fullstack Application
 
-Aplicação fullstack desenvolvida utilizando Next.js, Expo e PocketBase, com autenticação via OAuth do Google.
+Aplicação fullstack desenvolvida com Next.js, Expo e PocketBase, com autenticação via OAuth do Google.
 
 ## Descrição
 
@@ -58,13 +58,13 @@ GOOGLE_CLIENT_ID_MOBILE=
 
 > **Nota:** Os valores para `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` e outras variáveis sensíveis não estão preenchidos nos arquivos `.env` por razões de segurança. É uma boa prática não incluir informações sensíveis em repositórios de código público para evitar exposições acidentais. Portanto, esses valores devem ser preenchidos manualmente por quem for executar o projeto. Certifique-se de preencher essas variáveis antes de rodar o projeto para garantir que todos os serviços funcionem corretamente.
 
-## Executando a Aplicação
+## Executar a Aplicação
 
-### Usando Docker
+### Usar Docker
 
-A maneira mais fácil de rodar toda a aplicação é utilizando Docker Compose. Isso garante que todas as partes do sistema sejam inicializadas corretamente com as configurações necessárias.
+A maneira mais fácil de rodar toda a aplicação é utilizar Docker Compose. Isso garante que todas as partes do sistema sejam inicializadas corretamente com as configurações necessárias.
 
-1. **Subir os Contêineres**
+1. **Iniciar os contentores**
 
    Execute o seguinte comando na raiz do repositório para iniciar todos os serviços:
 
@@ -81,7 +81,7 @@ A maneira mais fácil de rodar toda a aplicação é utilizando Docker Compose. 
    - **Backend**: O backend estará acessível em [http://localhost:3000](http://localhost:3000).
    - **PocketBase**: A interface do PocketBase estará acessível em [http://localhost:8090](http://localhost:8090).
 
-### Rodando Localmente (Sem Docker)
+### Rodar Localmente (Sem Docker)
 
 Se você preferir rodar o projeto localmente sem Docker:
 
