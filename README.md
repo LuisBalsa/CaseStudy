@@ -11,6 +11,14 @@ O projeto é dividido em três partes principais:
 2. **Frontend (`MyProject`)**: Implementado com Expo, responsável pela interface do usuário para dispositivos móveis e web.
 3. **PocketBase (`docker/pocketbase`)**: Usado como backend para persistência de dados.
 
+
+## Demonstração
+
+Aqui está uma demonstração do site em funcionamento, incluindo o processo de login:
+
+![Peek 2024-08-30 12-40](https://github.com/user-attachments/assets/5dbba1f0-5a8f-4daa-b45a-83c8242b2cbf)
+
+
 ## Pré-requisitos
 
 Certifique-se de ter os seguintes softwares instalados:
@@ -63,6 +71,9 @@ A maneira mais fácil de rodar toda a aplicação é utilizando Docker Compose. 
    ```bash
    docker-compose up -d
    ```
+
+> **Nota:** A primeira vez que iniciar os serviços pode demorar vários minutos.
+
 
 2. **Acessar a Aplicação**
 
