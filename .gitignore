@@ -49,6 +49,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# PocketBase (assuming binary files or other config files you don't want in git)
-pocketbase/
-
